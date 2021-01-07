@@ -1,0 +1,43 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #d63b2f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f88279;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+a {
+  color: #d63b2f;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: darken(#d63b2f, 15%);
+    text-decoration: none;
+  }
+}

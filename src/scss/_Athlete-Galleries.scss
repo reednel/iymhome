@@ -1,0 +1,38 @@
+.Athlete-Gallery {
+  padding: 50px 80px;
+
+  .Athlete-Gallery-Card {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15),
+      0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .Athlete-Gallery-Card-Info {
+      padding: 25px 5px;
+      background: #fcc7c3;
+
+      .Athlete-Gallery-Card-Name {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      .Athlete-Gallery-Card-Bio {
+        display: block;
+        color: #a7a7a7;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+      }
+    }
+
+    .Athlete-Gallery-Card-Image {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

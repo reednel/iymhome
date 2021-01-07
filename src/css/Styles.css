@@ -1,0 +1,99 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #d63b2f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f88279;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+a {
+  color: #d63b2f;
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  color: #9a271e;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.Nav-Bar {
+  padding: 10px 80px;
+  background-color: #faa19b;
+}
+.Nav-Bar .Nav-Bar-Content {
+  text-align: right;
+}
+.Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Link {
+  margin: 10px;
+}
+
+.Live-Event {
+  padding: 50px 80px;
+}
+.Live-Event .Live-Event-Box {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 512px;
+}
+
+.Athlete-Gallery {
+  padding: 50px 80px;
+}
+.Athlete-Gallery .Athlete-Gallery-Card {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info {
+  padding: 25px 5px;
+  background: #fcc7c3;
+}
+.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Name {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Bio {
+  display: block;
+  color: #a7a7a7;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
