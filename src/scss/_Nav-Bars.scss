@@ -1,10 +1,18 @@
 .Nav-Bar {
   padding: 10px 80px;
-  background-color: #faa19b;
-
+  background-color: #2d2d2c;
+  overflow: hidden;
+  .Nav-Bar-Title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 3000;
+  }
   .Nav-Bar-Content {
     text-align: right;
-
+    align-items: right;
     .Nav-Bar-Content-Link {
       margin: 10px;
     }

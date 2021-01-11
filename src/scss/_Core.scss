@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #f88279;
+  color: #da0001;
 }
 
 h1 {
@@ -31,13 +31,13 @@ p {
 }
 
 a {
-  color: #d63b2f;
+  color: #ffffff;
   text-decoration: none;
 
   &:hover,
   &:active,
   &:focus {
-    color: darken(#d63b2f, 15%);
+    color: #da0001;
     text-decoration: none;
   }
 }
