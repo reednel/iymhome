@@ -22,7 +22,9 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 600;
-  letter-spacing: -1.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 p {
@@ -45,16 +47,18 @@ a:hover, a:active, a:focus {
 
 .Nav-Bar {
   padding: 10px 80px;
+  margin-bottom: 40px;
   background-color: #2d2d2c;
   overflow: hidden;
 }
 .Nav-Bar .Nav-Bar-Title {
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 3000;
+  font-weight: 500;
+  text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
 }
 .Nav-Bar .Nav-Bar-Content {
   text-align: right;
@@ -66,7 +70,7 @@ a:hover, a:active, a:focus {
 
 .Live-Event {
   padding: 40px 80px;
-  padding-top: 80px;
+  padding-bottom: 40px;
 }
 .Live-Event .Live-Event-Box {
   background: #ffffff;
@@ -77,11 +81,12 @@ a:hover, a:active, a:focus {
 }
 
 .Athlete-Gallery {
-  padding: 40px 80px;
+  padding: 0 80px;
+  padding-bottom: 10px;
 }
 .Athlete-Gallery .Athlete-Gallery-Card {
   background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -110,11 +115,12 @@ a:hover, a:active, a:focus {
 }
 
 .Past-Event-Gallery {
-  padding: 40px 80px;
+  padding: 0px 80px;
+  padding-bottom: 40px;
 }
 .Past-Event-Gallery .Past-Event-Gallery-Card {
   background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -142,25 +148,26 @@ a:hover, a:active, a:focus {
   background-position: center;
 }
 
-.btn {
+.Btn {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
   border: 0;
-  background-color: #2d2d2c;
-}
-.btn:hover, .btn:active, .btn:focus {
+  background: none;
   color: #da0001;
+}
+.Btn:hover, .Btn:active, .Btn:focus {
+  color: #000000;
   text-decoration: none;
   background-color: #2d2d2c;
 }
-.btn .btn-primary {
-  background-color: #2d2d2c;
+.Btn .Btn-Primary {
+  background: none;
 }
 
 .dropdown .dropdown-toggle {
-  margin-top: 35px;
+  margin-top: 0px;
 }
 .dropdown .dropdown-menu .dropdown-item {
   text-transform: uppercase;
@@ -171,25 +178,45 @@ a:hover, a:active, a:focus {
 }
 .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
-  color: #A8DBCE;
+  color: #da0001;
 }
 
-.Sponsers {
-  padding: 40px 80px;
-  padding-top: 80px;
+.Sponsors {
+  padding: 0px 80px;
+  padding-bottom: 40px;
 }
-.Sponsers .Sponsers-Box {
+.Sponsors .Sponsors-Box {
   background: #000000;
   box-shadow: 0px 4px 20px #29292926, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   min-height: 512px;
 }
-.Sponsers .Sponsers-Box .Sponsers-Title {
+.Sponsors .Sponsors-Box .Sponsors-Title {
   color: #ffffff;
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 5px;
   text-transform: uppercase;
   font-weight: 800;
+}
+
+.Parallax {
+  /*background-image: url("backdrop.jpg");*/
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.Footer {
+  background: #2d2d2c;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px 0;
 }
