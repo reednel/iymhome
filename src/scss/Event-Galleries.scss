@@ -1,26 +1,26 @@
-.Past-Event-Gallery {
-  padding: 0px 80px;
-  padding-bottom: 40px;
+.Event-Gallery {
+  padding: 0 80px;
+  padding-bottom: 10px;
 
-  .Past-Event-Gallery-Card {
+  .Event-Gallery-Card {
     background: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25),
-      0px 4px 4px rgba(0, 0, 0, 0.15);
+      0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 30px;
 
-    .Past-Event-Gallery-Card-Info {
+    .Event-Gallery-Card-Info {
       padding: 25px 5px;
       background: #2d2d2c;
 
-      .Past-Event-Gallery-Card-Name {
+      .Event-Gallery-Card-Name {
         display: block;
         font-size: 20px;
         margin-bottom: 5px;
       }
 
-      .Past-Event-Gallery-Card-Bio {
+      .Event-Gallery-Card-Bio {
         display: block;
         color: #a7a7a7;
         font-size: 14px;
@@ -30,7 +30,7 @@
       }
     }
 
-    .Past-Event-Gallery-Card-Image {
+    .Event-Gallery-Card-Image {
       height: 200px;
       background-size: cover;
       background-position: center;

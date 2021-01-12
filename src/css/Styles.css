@@ -80,27 +80,27 @@ a:hover, a:active, a:focus {
   min-height: 512px;
 }
 
-.Athlete-Gallery {
+.Event-Gallery {
   padding: 0 80px;
   padding-bottom: 10px;
 }
-.Athlete-Gallery .Athlete-Gallery-Card {
+.Event-Gallery .Event-Gallery-Card {
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 30px;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info {
   padding: 25px 5px;
   background: #2d2d2c;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Name {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info .Event-Gallery-Card-Name {
   display: block;
   font-size: 20px;
   margin-bottom: 5px;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Bio {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info .Event-Gallery-Card-Bio {
   display: block;
   color: #a7a7a7;
   font-size: 14px;
@@ -108,41 +108,7 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
   font-weight: 600;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Image {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-.Past-Event-Gallery {
-  padding: 0px 80px;
-  padding-bottom: 40px;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card {
-  background: #ffffff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info {
-  padding: 25px 5px;
-  background: #2d2d2c;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info .Past-Event-Gallery-Card-Name {
-  display: block;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info .Past-Event-Gallery-Card-Bio {
-  display: block;
-  color: #a7a7a7;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Image {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Image {
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -181,18 +147,18 @@ a:hover, a:active, a:focus {
   color: #da0001;
 }
 
-.Sponsors {
+.Partners {
   padding: 0px 80px;
   padding-bottom: 40px;
 }
-.Sponsors .Sponsors-Box {
+.Partners .Partners-Box {
   background: #000000;
   box-shadow: 0px 4px 20px #29292926, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   min-height: 512px;
 }
-.Sponsors .Sponsors-Box .Sponsors-Title {
+.Partners .Partners-Box .Partners-Title {
   color: #ffffff;
   display: block;
   font-size: 40px;
