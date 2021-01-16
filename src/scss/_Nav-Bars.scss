@@ -25,7 +25,6 @@
     .Nav-Bar-Content-Item {
       padding: 10px;
       transition: transform 400ms;
-      flex: 2;
 
       &:hover,
       &:active,
@@ -34,7 +33,6 @@
       }
 
       .Nav-Bar-Content-Link {
-        // margin: 10px;
         text-transform: uppercase;
         font-weight: 500;
         letter-spacing: 1.5px;

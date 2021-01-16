@@ -9,6 +9,13 @@
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 30px;
+    transition: transform 400ms;
+
+    &:hover,
+    &:active,
+    &:focus {
+      transform: scale(1.1);
+    }
 
     .Event-Gallery-Card-Info {
       padding: 25px 5px;

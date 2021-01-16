@@ -4,7 +4,7 @@ import "../css/Styles.css";
 
 class PledgeTracker extends Component {
   render() {
-    return null;
+    return <div></div>;
   }
 }
 

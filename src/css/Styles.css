@@ -71,7 +71,6 @@ a:hover, a:active, a:focus {
 .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item {
   padding: 10px;
   transition: transform 400ms;
-  flex: 2;
 }
 .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:hover, .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:active, .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:focus {
   transform: scale(1.1);
@@ -112,6 +111,10 @@ a:hover, a:active, a:focus {
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 30px;
+  transition: transform 400ms;
+}
+.Event-Gallery .Event-Gallery-Card:hover, .Event-Gallery .Event-Gallery-Card:active, .Event-Gallery .Event-Gallery-Card:focus {
+  transform: scale(1.1);
 }
 .Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info {
   padding: 25px 5px;
