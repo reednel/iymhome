@@ -2,7 +2,11 @@
   padding: 10px 80px;
   margin-bottom: 40px;
   background-color: #2d2d2c;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
   .Nav-Bar-Title {
     text-align: left;
     color: #ffffff;
@@ -12,11 +16,30 @@
     font-weight: 500;
     text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
   }
+
   .Nav-Bar-Content {
     text-align: right;
     align-items: right;
-    .Nav-Bar-Content-Link {
-      margin: 10px;
+    display: flex;
+
+    .Nav-Bar-Content-Item {
+      padding: 10px;
+      transition: transform 400ms;
+      flex: 2;
+
+      &:hover,
+      &:active,
+      &:focus {
+        transform: scale(1.1);
+      }
+
+      .Nav-Bar-Content-Link {
+        // margin: 10px;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+      }
     }
   }
 }

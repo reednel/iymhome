@@ -2,7 +2,11 @@
   padding: 40px 80px;
   padding-bottom: 40px;
   max-width: 1000px; // Mapbox doesn't cooperate well with wider frames
+
   margin: auto;
+  margin-top: 105px;
+
+  z-index: 2;
 
   .Live-Event-Box {
     background: #ffffff;
