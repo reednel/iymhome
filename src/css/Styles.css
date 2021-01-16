@@ -71,13 +71,18 @@ a:hover, a:active, a:focus {
 .Live-Event {
   padding: 40px 80px;
   padding-bottom: 40px;
+  max-width: 1000px;
+  margin: auto;
 }
 .Live-Event .Live-Event-Box {
   background: #ffffff;
   box-shadow: 0px 4px 20px #00000026, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
-  min-height: 512px;
+}
+.Live-Event .Live-Event-Box .Map {
+  padding: 0;
+  width: 100%;
 }
 
 .Event-Gallery {
@@ -110,8 +115,47 @@ a:hover, a:active, a:focus {
 }
 .Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Image {
   height: 200px;
-  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Partners {
+  padding: 0px 80px;
+  padding-bottom: 40px;
+}
+.Partners .Partners-Box {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px #29292926, 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 512px;
+}
+.Partners .Partners-Box .Partners-Title {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.Footer {
+  background: #2d2d2c;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.Parallax {
+  /*background-image: url("backdrop.jpg");*/
+  height: 100%;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .Btn {
@@ -145,44 +189,4 @@ a:hover, a:active, a:focus {
 .dropdown .dropdown-menu .dropdown-item.active {
   background-color: #ffffff;
   color: #da0001;
-}
-
-.Partners {
-  padding: 0px 80px;
-  padding-bottom: 40px;
-}
-.Partners .Partners-Box {
-  background: #000000;
-  box-shadow: 0px 4px 20px #29292926, 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
-  overflow: hidden;
-  min-height: 512px;
-}
-.Partners .Partners-Box .Partners-Title {
-  color: #ffffff;
-  display: block;
-  font-size: 40px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-.Parallax {
-  /*background-image: url("backdrop.jpg");*/
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-}
-
-.Footer {
-  background: #2d2d2c;
-  color: #a7a7a7;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  padding: 10px 0;
 }

@@ -1,13 +1,19 @@
 .Live-Event {
-  //background-color: lightgray;
   padding: 40px 80px;
   padding-bottom: 40px;
+  max-width: 1000px; // Mapbox doesn't cooperate well with wider frames
+  margin: auto;
 
   .Live-Event-Box {
     background: #ffffff;
     box-shadow: 0px 4px 20px #00000026, 0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     overflow: hidden;
-    min-height: 512px;
+    // min-height: 500px;
+
+    .Map {
+      padding: 0;
+      width: 100%;
+    }
   }
 }

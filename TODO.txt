@@ -1,0 +1,4 @@
+- Get better athlete pictures
+- Make dropdown work
+- Add progress bar (Pledge Tracker)
+- Make partners section 
