@@ -1,25 +1,33 @@
-.Athlete-Gallery {
-  padding: 40px 80px;
+.Event-Gallery {
+  padding: 0 80px;
+  padding-bottom: 10px;
 
-  .Athlete-Gallery-Card {
+  .Event-Gallery-Card {
     background: #ffffff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15),
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25),
       0px 4px 4px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     overflow: hidden;
     margin-bottom: 30px;
+    transition: transform 400ms;
 
-    .Athlete-Gallery-Card-Info {
+    &:hover,
+    &:active,
+    &:focus {
+      transform: scale(1.1);
+    }
+
+    .Event-Gallery-Card-Info {
       padding: 25px 5px;
       background: #2d2d2c;
 
-      .Athlete-Gallery-Card-Name {
+      .Event-Gallery-Card-Name {
         display: block;
         font-size: 20px;
         margin-bottom: 5px;
       }
 
-      .Athlete-Gallery-Card-Bio {
+      .Event-Gallery-Card-Bio {
         display: block;
         color: #a7a7a7;
         font-size: 14px;
@@ -29,10 +37,10 @@
       }
     }
 
-    .Athlete-Gallery-Card-Image {
+    .Event-Gallery-Card-Image {
       height: 200px;
-      background-size: cover;
-      background-position: center;
+      width: 100%;
+      object-fit: cover;
     }
   }
 }

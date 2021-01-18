@@ -1,0 +1,4 @@
+- Get better athlete pictures
+- Fix mapbox watermark overlaying navbar
+- Add progress bar (Pledge Tracker)
+- Make partners section 

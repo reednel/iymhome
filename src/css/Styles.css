@@ -22,7 +22,9 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 600;
-  letter-spacing: -1.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 p {
@@ -45,57 +47,85 @@ a:hover, a:active, a:focus {
 
 .Nav-Bar {
   padding: 10px 80px;
+  margin-bottom: 40px;
   background-color: #2d2d2c;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .Nav-Bar .Nav-Bar-Title {
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 3000;
+  font-weight: 500;
+  text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
 }
 .Nav-Bar .Nav-Bar-Content {
   text-align: right;
   align-items: right;
+  display: flex;
 }
-.Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Link {
-  margin: 10px;
+.Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item {
+  padding: 10px;
+  transition: transform 400ms;
+}
+.Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:hover, .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:active, .Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item:focus {
+  transform: scale(1.1);
+}
+.Nav-Bar .Nav-Bar-Content .Nav-Bar-Content-Item .Nav-Bar-Content-Link {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .Live-Event {
   padding: 40px 80px;
-  padding-top: 80px;
+  padding-bottom: 40px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 105px;
+  z-index: 2;
 }
 .Live-Event .Live-Event-Box {
   background: #ffffff;
   box-shadow: 0px 4px 20px #00000026, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
-  min-height: 512px;
+}
+.Live-Event .Live-Event-Box .Map {
+  padding: 0;
+  width: 100%;
 }
 
-.Athlete-Gallery {
-  padding: 40px 80px;
+.Event-Gallery {
+  padding: 0 80px;
+  padding-bottom: 10px;
 }
-.Athlete-Gallery .Athlete-Gallery-Card {
+.Event-Gallery .Event-Gallery-Card {
   background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 30px;
+  transition: transform 400ms;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info {
+.Event-Gallery .Event-Gallery-Card:hover, .Event-Gallery .Event-Gallery-Card:active, .Event-Gallery .Event-Gallery-Card:focus {
+  transform: scale(1.1);
+}
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info {
   padding: 25px 5px;
   background: #2d2d2c;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Name {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info .Event-Gallery-Card-Name {
   display: block;
   font-size: 20px;
   margin-bottom: 5px;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Info .Athlete-Gallery-Card-Bio {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Info .Event-Gallery-Card-Bio {
   display: block;
   color: #a7a7a7;
   font-size: 14px;
@@ -103,93 +133,79 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
   font-weight: 600;
 }
-.Athlete-Gallery .Athlete-Gallery-Card .Athlete-Gallery-Card-Image {
+.Event-Gallery .Event-Gallery-Card .Event-Gallery-Card-Image {
   height: 200px;
-  background-size: cover;
-  background-position: center;
+  width: 100%;
+  object-fit: cover;
 }
 
-.Past-Event-Gallery {
-  padding: 40px 80px;
+.Partners {
+  padding: 0px 80px;
+  padding-bottom: 40px;
 }
-.Past-Event-Gallery .Past-Event-Gallery-Card {
+.Partners .Partners-Box {
   background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info {
-  padding: 25px 5px;
-  background: #2d2d2c;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info .Past-Event-Gallery-Card-Name {
-  display: block;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Info .Past-Event-Gallery-Card-Bio {
-  display: block;
-  color: #a7a7a7;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-.Past-Event-Gallery .Past-Event-Gallery-Card .Past-Event-Gallery-Card-Image {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-.btn {
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-  border: 0;
-  background-color: #2d2d2c;
-}
-.btn:hover, .btn:active, .btn:focus {
-  color: #da0001;
-  text-decoration: none;
-  background-color: #2d2d2c;
-}
-.btn .btn-primary {
-  background-color: #2d2d2c;
-}
-
-.dropdown .dropdown-toggle {
-  margin-top: 35px;
-}
-.dropdown .dropdown-menu .dropdown-item {
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border: 0;
-  padding: 5px 10px;
-}
-.dropdown .dropdown-menu .dropdown-item.active {
-  background-color: #ffffff;
-  color: #A8DBCE;
-}
-
-.Sponsers {
-  padding: 40px 80px;
-  padding-top: 80px;
-}
-.Sponsers .Sponsers-Box {
-  background: #000000;
   box-shadow: 0px 4px 20px #29292926, 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   overflow: hidden;
   min-height: 512px;
 }
-.Sponsers .Sponsers-Box .Sponsers-Title {
-  color: #ffffff;
+.Partners .Partners-Box .Partners-Title {
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 5px;
   text-transform: uppercase;
   font-weight: 800;
+}
+
+.Footer {
+  background: #2d2d2c;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+
+.Parallax {
+  /*background-image: url("backdrop.jpg");*/
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.Dropdown .Dropdown-Toggle {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #da0001, 50%, #f17e7e);
+  border: none;
+}
+.Dropdown .Dropdown-Toggle:hover, .Dropdown .Dropdown-Toggle:active, .Dropdown .Dropdown-Toggle:focus {
+  background: linear-gradient(315deg, #da0001, 50%, #f17e7e);
+}
+.Dropdown .Dropdown-Menu {
+  text-align: left;
+  background-color: #ffffff;
+  transition: height 500ms ease-out;
+}
+.Dropdown .Dropdown-Menu .Dropdown-Item {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border: 0;
+  padding: 5px 10px;
+  text-align: right;
+}
+.Dropdown .Dropdown-Menu .Dropdown-Item:hover, .Dropdown .Dropdown-Menu .Dropdown-Item:active, .Dropdown .Dropdown-Menu .Dropdown-Item:focus {
+  text-decoration: none;
+  color: #da0001;
+  background-color: #f2f2f2;
 }
