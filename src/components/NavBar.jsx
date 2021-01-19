@@ -14,28 +14,19 @@ class NavBar extends Component {
 
           <div className="Nav-Bar-Content">
             <div className="Nav-Bar-Content-Item">
-              <a className="Nav-Bar-Content-Link" href="">
-                Features
+              <a
+                className="Nav-Bar-Content-Link"
+                href="https://www.google.com/" // To get the warnings off my back
+              >
+                Home
               </a>
             </div>
             <div className=" Nav-Bar-Content-Item">
-              <a className="Nav-Bar-Content-Link" href="">
-                About
-              </a>
-            </div>
-            <div className=" Nav-Bar-Content-Item">
-              <a className="Nav-Bar-Content-Link" href="">
-                Testimonials
-              </a>
-            </div>
-            <div className=" Nav-Bar-Content-Item">
-              <a className="Nav-Bar-Content-Link" href="">
-                Download
-              </a>
-            </div>
-            <div className=" Nav-Bar-Content-Item">
-              <a className="Nav-Bar-Content-Link" href="">
-                Contact
+              <a
+                className="Nav-Bar-Content-Link"
+                href="https://www.google.com/" // Warnings
+              >
+                Pledges
               </a>
             </div>
             <DropButton />

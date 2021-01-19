@@ -16,15 +16,18 @@ const DropButton = (props) => {
   return (
     <ButtonDropdown className="Dropdown" isOpen={dropdownOpen} toggle={toggle}>
       <DropdownToggle className="Dropdown-Toggle" caret>
-        User
+        Events
       </DropdownToggle>
       <DropdownMenu className="Dropdown-Menu" right>
         <DropdownItem className="Dropdown-Item">
           {/* add property [disabled] when on that page */}
-          Pledge
+          Dr. Amit Samarth
         </DropdownItem>
-        <DropdownItem className="Dropdown-Item">Settings</DropdownItem>
-        <DropdownItem className="Dropdown-Item">Login/Logout</DropdownItem>
+        <DropdownItem className="Dropdown-Item">Dave Haase</DropdownItem>
+        <DropdownItem className="Dropdown-Item">James MacDonald</DropdownItem>
+        <DropdownItem className="Dropdown-Item">Bukima Patel</DropdownItem>
+        <DropdownItem className="Dropdown-Item">Julia Cross</DropdownItem>
+        <DropdownItem className="Dropdown-Item">Christian Jensen</DropdownItem>
       </DropdownMenu>
     </ButtonDropdown>
   );
