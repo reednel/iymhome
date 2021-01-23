@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "../css/Styles.css";
 
-import NavBar from "../components/NavBar";
-import LiveEvent from "../components/LiveEvent.jsx";
-import PledgeTracker from "../components/PledgeTracker";
-import AthleteGallery from "../components/AthleteGallery";
-import PastGallery from "../components/PastGallery";
-import Partners from "../components/Partners";
-import Footer from "../components/Footer";
+import NavBar from "../HomeComponents/NavBar";
+import LiveEvent from "../HomeComponents/LiveEvent.jsx";
+import PledgeTracker from "../HomeComponents/PledgeTracker";
+import AthleteGallery from "../HomeComponents/AthleteGallery";
+import PastGallery from "../HomeComponents/PastGallery";
+import Partners from "../HomeComponents/Partners";
+import Footer from "../HomeComponents/Footer";
 
 import { Parallax } from "react-parallax";
 import background from "../images/background.png";

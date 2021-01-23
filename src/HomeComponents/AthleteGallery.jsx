@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import GalleryCard from "../components/GalleryCard";
+import GalleryCard from "../HomeComponents/GalleryCard";
 import "../css/Styles.css";
 
 import samarth from "../images/samarth.PNG";
